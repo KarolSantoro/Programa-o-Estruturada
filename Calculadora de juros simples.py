@@ -1,0 +1,6 @@
+valor = float(input("Digite o valor:"))
+juros = float(input("Digite a taxa de juros mensal:"))
+periodo = int(input("Digite o periodo de meses:"))
+juros = (juros / 100)
+calculo = (valor * juros * periodo)
+print("O juros após" , (periodo), "meses, " "sera de:" , format(calculo))
